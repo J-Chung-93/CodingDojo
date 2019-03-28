@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="globe.png" alt="Globe">
+            <h1>The Inter<span>net</span></h1>
+        </div>
+        <h2>The World Wide Web</h2>
+        <div class="content">
+            <div class="content_left">
+                <div class="content_left_top">
+                    <h4>So, what's an <span>Internet?</span></h4>
+                    <p>An <span>inter</span>connected <span>Net</span>work of computers
+                        all around the world!
+                    </p>
+                    <button id="blue">WATCH A VIDEO</button>
+                    <button id="orange">MORE RESOURCES</button>
+                </div>
+                <div class="content_left_bottom">
+                    <p>Reinvent your career in just 14 weeks</p>
+                    <img src="ninja.png" alt="Ninja">
+                    <button>Learn More >>></button>
+                </div>
+            </div>
+            <div class="content_right">
+                <div class="content_right_header">
+                    <img src="home.png" alt="Home">
+                    <p>DNS</p>
+                    <div class="contact">
+                        <p>Mon - Fri 9 a.m. - 5 p.m. (EST)</p>
+                        <img src="phone.png" alt="Phone">
+                        <p id="phone_number">855.967.9787</p>
+                        <p>International +1.617.963.0555</p>
+                    </div>
+                </div>
+                <div class="content_right_middle">
+                    <h3>Clients and Servers</h3>
+                    <p>Computers connected to the <span>Web</span> are called <span id="clients">clients</span> and <span id="servers">servers</span>.</p>
+                    <ul>
+                        <li><span>Clients</span> are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <span>Web-accessing software</span> available on those devices (usually a web browser like Firefox or Chrome).</li>
+                        <li><span>Servers</span> are computers that store <span>webpages, sites,</span> or <span>apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+                    </ul>
+                    <img src="client_server.jpg" alt="Client Server">
+                    <h3>So What Actually Happens?</h3>
+                    <ol>
+                        <li>The browser goes to the <span>DNS server</span> and finds the real address of the <span>server</span> that the website lives on.</li>
+                        <li>The browser sends and <span>HTTP request</span> message to the server asking it to send a copy of the website to the client.</li>
+                        <li>If the server approves the client's request, the server sends the client a <span>"200 OK" message</span>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.</li>
+                        <li>The browser assembles the small chunks into a complete website and displays it to you!</li>
+                    </ol>
+                </div>
+                <div class="content_right_bottom">
+                    <img src="html.png" alt="Languages for Web Fundamentals">
+                    <div class="content_right_bottom_big3">
+                        <h3>The Big 3 - HTML, CSS, JavaScript</h3>
+                        <p>While the server can process information in many different languages, the files that they serve to the client are <span id="always">always</span> going to be some combination of HTML, CSS, and JavaScript!</p>
+                        <p>Learn more about the Big 3 <a href="#">here</a>!</p>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </div>
+</body>
+</html>
