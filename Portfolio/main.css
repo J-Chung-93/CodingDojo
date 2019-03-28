@@ -1,0 +1,175 @@
+.container{
+    width: 970px;
+    height: 1000px;
+    background-image: radial-gradient(circle, #6F5964 15%, #6E5863 10%, #241318 50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 60px;
+    background-color: #F8F8F8;
+}
+
+.header h1{
+    display: inline-block;
+    padding: 5px;
+    margin: 0px 350px 0px 20px;
+    font-size: 34px;
+}
+
+.header h2{
+    display: inline-block;
+    padding: 10px;
+    font-size: 22px;
+    margin: 10px auto;
+}
+
+img{
+    display: inline-block;
+    height: 255px;
+    margin: 30px;
+    border: 5px solid #C0C0C0;
+}
+
+.about{
+    display: inline-block;
+    width: 470px;
+    height: 263px;
+    vertical-align: top;
+    margin: 30px 0px;
+    background-color: white;
+    background-image: linear-gradient(to right, rgba(219, 204, 218, 0), rgba(219, 204, 218, 1));
+}
+
+h3{
+    margin: 0px;
+    height: 20px;
+    padding: 10px;
+    background-image: linear-gradient(#B2B2B6, #908E9A, #B2B2B6);
+    color: white;
+}
+
+p{
+    margin: 0px;
+    padding: 10px;
+    font-size: 15.7px;
+}
+
+.about a{
+    color: black;
+    padding: 10px;
+    font-size: 15.7px;
+}
+
+.content{
+    margin-bottom: 11px;
+}
+
+.la_mode{
+    display: inline-block;
+    margin-left: 30px;
+    height: 540px;
+    width: 275px;
+    background-color: white;
+    background-image: linear-gradient(to right, rgba(219, 204, 218, 0), rgba(219, 204, 218, 1));
+    vertical-align: top;
+}
+
+.content img{
+    height: 151px;
+    margin: 0px;
+    border: none;
+}
+
+.content p{
+    font-size: 13px;
+    padding-bottom: 45px;
+    height: 100px;
+}
+
+.icons img{
+    height: 37px;
+    margin: 5px;
+    border: none;
+    padding: 2px;
+}
+
+h4{
+    margin: 0px;
+    height: 20px;
+    padding: 10px;
+    background-image: linear-gradient(#B2B2B6, #908E9A, #B2B2B6);
+    color: white;
+}
+
+button{
+    border-radius: 4px;
+    border: none;
+    color: white;
+    text-align: center;
+    background-color: #407D61;
+    margin: 0px 110px;
+    padding: 4px;
+    box-shadow: 2px 1.5px gray;
+    width: 67px;
+}
+
+.family_contacts{
+    display: inline-block;
+    margin-left: 30px;
+    height: 540px;
+    width: 275px;
+    background-color: white;
+    background-image: linear-gradient(to right, rgba(219, 204, 218, 0), rgba(219, 204, 218, 1));
+    vertical-align: top;
+}
+
+#family_contacts_button{
+    width: 110px;
+    margin: 0px 83px;
+}
+
+.fiveEleven{
+    display: inline-block;
+    margin-left: 30px;
+    height: 540px;
+    width: 275px;
+    background-color: white;
+    background-image: linear-gradient(to right, rgba(219, 204, 218, 0), rgba(219, 204, 218, 1));
+    vertical-align: top;
+}
+
+#fiveEleven_button{
+    width: 74px;
+    margin: 0px 100px;
+}
+
+.footer{
+    height: 60px;
+    background-color: #F8F8F8;
+}
+
+.footer p{
+    font-size: 14px;
+    text-align: center;
+}
+
+.contacts{
+    margin: 0px 300px;
+}
+
+.contacts img{
+    display: inline-block;
+    height: 20px;
+    border: none;
+    margin: 0px;
+    vertical-align: top;
+}
+
+.contacts a{
+    display: inline-block;
+    vertical-align: top;
+    font-style: italic;
+    color: black;
+    font-size: 14px;
+}
